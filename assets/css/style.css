@@ -1,0 +1,522 @@
+@font-face{
+    font-family: Metropolis;
+    src: url("../font/Metropolis-Regular.woff") format("woff"),   
+    url("../font/Metropolis-Regular.woff2") format("woff2");
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    font-family: Metropolis;
+    font-weight: normal;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    padding: 0 100px;
+    height: 100px;
+    align-items: center;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+.navbar .icon img{
+    height: 44px;
+    width: 119px;
+}
+.navbar .search{
+    display: flex;
+    margin-left: 60px;
+    text-align: center;
+}
+.navbar .search input{
+    width: 507px;
+    height: 40px;
+    border: 1px solid #8e8e93;
+    border-radius: 23px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.navbar .search input:focus{
+    outline: none;
+}
+.navbar .search .input{
+    display: inline-block;
+    position: relative;
+}
+.navbar .search .input img{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.navbar .search .filter{
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #8e8e93;
+    background-color: #ffffff;
+    margin-left: 11px;
+}
+.navbar .logsig{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar .logsig .btn{
+    display: flex;
+    width: 100px;
+    height: 36px;
+    border: 1px solid #9b9b9b;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 25px;
+    color: #9b9b9b;
+}
+.navbar .logsig .belm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.navbar .logsig a{
+    text-decoration: none;
+}
+.navbar .logsig .btn.first{
+    border: 1px solid #DB3022;
+    background-color: #DB3022;
+    color:#ffffff;
+}
+.navbar .logsig .cart{
+    margin-right: 40px;
+}
+.containerdet{
+    padding:0 100px ;
+}
+.containerdet .judul{
+    font-size: 34px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.containerdet .select{
+    width: 720px;
+    height: 64px;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.containerdet .select .cek{
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+
+.containerdet .select .sel.bes{
+    position: absolute;
+    margin-left: 62px;
+    margin-top: 22px;
+}
+.containerdet .select .sel.cil{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 22px;
+    color: #9b9b9b;
+}
+.containerdet .select .del{
+    position: absolute;
+    margin-top: 22px;
+    right: 55px;
+    color: #DB3022;
+}
+.containerdet .det1{
+    width: 720px;
+    height: 126px;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.containerdet .det1 .cek{
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 60px;
+}
+.containerdet .det1 .polos{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 32px;
+}
+.containerdet .det1 .title{
+    position: absolute;
+    margin-left: 154px;
+    margin-top: 43px;
+    font-size: 16px;
+}
+.containerdet .det1 .sub{
+    position: absolute;
+    margin-left: 154px;
+    margin-top: 71px;
+    color: #9b9b9b;
+    font-size: 12px;
+}
+.containerdet .det1 .btn{
+    right: 164px;
+    position: absolute;
+    margin-top: 55px;
+}
+.containerdet .det1 .btn .min{
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 50% 50%;
+    background-color: #D5D5D5;
+}
+.containerdet .det1 .btn .plus{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #D5D5D5;
+    background-color: #ffffff;
+    border-radius: 50% 50%;
+}
+.containerdet .det1 .btn .num{
+    margin: 0 17px;
+}
+.containerdet .det1 .dol{
+    position: absolute;
+    right: 55px;
+    margin-top: 55px;
+}
+
+.containerdet .det2{
+    width: 720px;
+    height: 126px;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.containerdet .det2 .cek{
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 60px;
+}
+.containerdet .det2 .jacket{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 32px;
+}
+.containerdet .det2 .title{
+    position: absolute;
+    margin-left: 154px;
+    margin-top: 43px;
+    font-size: 16px;
+}
+.containerdet .det2 .sub{
+    position: absolute;
+    margin-left: 154px;
+    margin-top: 71px;
+    color: #9b9b9b;
+    font-size: 12px;
+}
+.containerdet .det2 .btn{
+    right: 164px;
+    position: absolute;
+    margin-top: 55px;
+}
+.containerdet .det2 .btn .min{
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 50% 50%;
+    background-color: #D5D5D5;
+}
+.containerdet .det2 .btn .plus{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #D5D5D5;
+    background-color: #ffffff;
+    border-radius: 50% 50%;
+}
+.containerdet .det2 .btn .num{
+    margin: 0 17px;
+}
+.containerdet .det2 .dol{
+    position: absolute;
+    right: 55px;
+    margin-top: 55px;
+}
+.containerdet .total{
+    width: 370px;
+    height: 180px;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    right: 150px;
+    top: 220px;
+}
+.containerdet .total .title{
+    margin: 24px 24px;
+    position: absolute;
+}
+.containerdet .total .sub{
+    margin-left: 24px;
+    margin-top: 60px;
+    position: absolute;
+}
+.containerdet .total .dol{
+    right: 24px;
+    position: absolute;
+    margin-top: 60px;
+}
+.containerdet .total .buy{
+    bottom: 24px;
+    margin-left: 24px;
+    width: 322px;
+    height: 36px;
+    border-radius: 25px;
+    border: 0;
+    background-color: #DB3022;
+    color: #ffffff;
+    position: absolute;
+}
+.containertail {
+    padding: 0 100px;
+    position: relative;
+}
+.containertail .rel{
+    margin-top: 50px;
+    font-size: 14px;
+    color: #9b9b9b;
+    position: absolute;
+}
+.containertail .atas{
+    width: 367px;
+    height: 460px;
+    position: relative;
+    top: 100px;
+}
+.containertail .atas .atas1{
+    display: flex;
+    margin-top: 17px;
+}
+.containertail .atas .atas1 .j{
+    margin-right: 10px;
+}
+.containertail .tail{
+    width: 683px;
+    height: 482px;
+    right:100px;
+    top: 120px;
+    position: absolute;
+}
+.containertail .tail .title{
+    font-size: 28px;
+}
+.containertail .tail .sub{
+    font-size: 16px;
+    color: #9b9b9b;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.containertail .tail .rate{
+    margin-bottom: 30px;
+}
+.containertail .tail .rate span{
+    font-size: 12px;
+    color: #9b9b9b;
+}
+.containertail .tail .price{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #9b9b9b;
+}
+.containertail .tail .dol{
+    margin-bottom: 40px;
+    font-size: 33px;
+    color: #222222;
+}
+.containertail .tail .indicator .item{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50% 50%;
+}
+.containertail .tail .col{
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.containertail .tail .indicator{
+    margin-bottom: 40px;
+}
+.containertail .tail .indicator .item.fi{
+    background-color: #1a1a1a;
+}
+.containertail .tail .indicator .item.se{
+    background-color: #D84242; 
+}
+.containertail .tail .indicator .item.th{
+    background-color: #4290D8;
+}
+.containertail .tail .indicator .item.fo{
+    background-color: #42D86C;
+}
+.containertail .tail .button{
+    margin-bottom: 47px;
+}
+.containertail .tail .button .btn{
+    display: inline-block;
+    margin-right: 80px;
+}
+.containertail .tail .button .btn .min{
+    border-radius: 50% 50%;
+    height: 36px;
+    width: 36px;
+    background-color: #d4d4d4;
+    border:0 ;
+    margin-right: 10px;
+}
+.containertail .tail .button .btn .plus{
+    border-radius: 50% 50%;
+    height: 36px;
+    width: 36px;
+    background-color: #ffffff;
+    border:1px  solid #d4d4d4;
+    margin-left: 10px;
+}
+.containertail .tail .button2 .chat{
+    height: 48px;
+    width: 160px;
+    border-radius: 24px;
+    border: 1.5px solid #222222;
+    background-color: #ffffff;
+    margin-right: 5px;
+}
+.containertail .tail .button2 .bag{
+    height: 48px;
+    width: 160px;
+    border-radius: 24px;
+    border: 1.5px solid #222222;
+    background-color: #ffffff;
+    margin-right: 5px;
+}
+.containertail .tail .button2 .buy{
+    height: 48px;
+    width: 343px;
+    border-radius: 25px;
+    border: 0;
+    background-color: #DB3022;
+    color: #ffffff;
+}
+.containertail .deskripsi{
+    height: 605px;
+    width: 100%;
+    position: relative;
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+.containertail .deskripsi .info{
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+.containertail .deskripsi .kondisi{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.containertail .deskripsi .new{
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #D84242;
+}
+.containertail .deskripsi .des span{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.containertail .deskripsi .des p{
+    font-size: 14px;
+    margin-bottom: 50px;
+    color: #9b9b9b;
+}
+.containertail .deskripsi .revi{
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.containertail .deskripsi .num{
+    font-size: 60px;
+}
+.containertail .deskripsi .num span{
+    font-size: 20px;
+    color: #9b9b9b;
+}
+.containertail .deskripsi .star2{
+    left: 180px ;
+    bottom: 100px;
+    position: relative;
+}
+.containertail .deskripsi .star2 .s{
+    margin-bottom: 5px;
+}
+.containertail .deskripsi .star2 .j{
+    margin: 0 75px;
+}
+.containertail .deskripsi .star2 .j2{
+    margin: 0 76.5px;
+}
+.containertail .deskripsi .star2 .garis{
+    margin: 0 15px;
+}
+.you{
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+.you span{
+    font-size: 12px;
+    color: #9b9b9b;
+}
+.card{
+    display: flex;
+    flex-flow: row wrap;
+}
+.containercard1{
+    height: 278px;
+    width: 208px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 0 10px;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+}
+.containercard1 .cut{
+    position: relative;
+    left: -15px;
+    right: -15px;
+}
+.containercard1 .kotak{
+    margin:0 12px;
+}
+.containercard1 .kotak .judul{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.containercard1 .kotak .dolar{
+    margin-bottom: 6px;
+    color: #DB3022;
+}
+.containercard1 .kotak .sub{
+    margin-bottom: 11px;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+.containercard1 .kotak .rating span{
+    font-size: 12px;
+    color: #9b9b9b;
+}
